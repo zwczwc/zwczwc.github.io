@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title>我的路由器之旅</title>
+    <link href="/2021/10/15/%E6%88%91%E7%9A%84%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B9%8B%E6%97%85/"/>
+    <url>/2021/10/15/%E6%88%91%E7%9A%84%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B9%8B%E6%97%85/</url>
+    
+    <content type="html"><![CDATA[<p>水电网构成生活基本资源。私以为可以忍受暂时停水，但是断网是每一刻都浑身难受，特别是身处互联网时代。我对网络稳定，环境，延迟和速度都有着自我的一定追求。</p><h3 id="FAST-FW306R"><a href="#FAST-FW306R" class="headerlink" title="FAST FW306R"></a>FAST FW306R</h3><p>万毒之源，老家搬家的最早服役路由器，老家宽带为 100M 电信 FTTH，主路由也是 FAST 某忘记型号，四台 FW306R 作为 AP，全 100M 端口，无线仅 2.4G，802.11n 协议，近距离一般设备的连接协议速度为 72/144Mbps，实际能勉强覆盖七八十平米的一层楼。表面类肤材质设计，当年看起来觉得还不错。由于广东电信 100M 存在虚标，分配 100M 实际能跑 150M，因此路由器成为了瓶颈，把其中三台退役了，尚有一台在三楼服役中（建筑商偷工减料，到三楼面板仅为四芯网线）。现今某宝 20 包邮。</p><p><img src="https://cdn.jsdelivr.net/gh/zwczwc/res/2021/RouterJouney/FW306R.png"></p><h3 id="极路由-1S"><a href="#极路由-1S" class="headerlink" title="极路由 1S"></a>极路由 1S</h3><p>本科校园网用锐捷认证，大一用笔记本连接认证后分享热点，严重降低笔记本使用寿命。后来 100 块入手极路由 1S，100M 有线 + 2.4G 无线，应付辣鸡 4M 校园网和寝室的单人床位空间绰绰有余，陪伴度过了 4 年本科，爷青回。现在极路由公司已倒闭。</p><p><img src="https://cdn.jsdelivr.net/gh/zwczwc/res/2021/RouterJouney/Gee1S.png"></p><h3 id="MERCURY-D191G"><a href="#MERCURY-D191G" class="headerlink" title="MERCURY D191G"></a>MERCURY D191G</h3><p>MERCURY 和前面的 FAST 同为 TP-LINK 子公司，出售换壳减配性价比版本。有线 1000M 端口 + 无线 WIFI5，理论 1900M 速率，但是现实 3 天线的网卡少之又少，一般是双天线走 AC 协议 867Mbps，因此 1900M 纯属装逼用。从 PDD 1xx 元入手，性价比可以。外表六边形设计笨重占地方，当初被人各种嫌弃，网线插入端口卡手，现在回过头来想有点后悔购买。</p><p><img src="https://cdn.jsdelivr.net/gh/zwczwc/res/2021/RouterJouney/D191G.png"></p><h3 id="MERCURY-D196G"><a href="#MERCURY-D196G" class="headerlink" title="MERCURY D196G"></a>MERCURY D196G</h3><p>D191G 的换壳版本，方正些许，没那么占地方。多了一个端口，价格基本不变，一口气从 PDD 购入两台在老家使用，现在一台作为主路由负责拨号和 NAT 转换，另一台在自己房间当 AP 用。</p><p><img src="https://cdn.jsdelivr.net/gh/zwczwc/res/2021/RouterJouney/D196G.png"></p><h3 id="PHICOMM-N1"><a href="#PHICOMM-N1" class="headerlink" title="PHICOMM N1"></a>PHICOMM N1</h3><p>年轻人的第一台软路由（矿渣），刷入 OpenWrt 后在老家作为旁路由使用。采用 4 核 A53 主频  1.5Ghz 的 CPU，28nm 制程，跑加密解密算法足够老家的小水管使用，UU 加速器也包含在 OpenWrt 的插件列表，因此满足了我的外网需求。省电，体积算是小巧，固件稳定，在 PDD 花的这 1xx 元挺值。</p><p><img src="https://cdn.jsdelivr.net/gh/zwczwc/res/2021/RouterJouney/N1.png"></p><h3 id="TP-LINK-AX5400"><a href="#TP-LINK-AX5400" class="headerlink" title="TP-LINK AX5400"></a>TP-LINK AX5400</h3><p>有感于香港的路由器价格之昂贵，从京东 3xx 元购入包邮直送香港。年轻人的第一台 WIFI6 路由器（误），支持 WiFi6 的 160Mhz 带宽，迎战未来。外表设计依旧是祖传的几万条天线，其实对我住的鸟笼屋一条就够了，实测 PCCW 1000M 宽带有线跑满千兆，无线跑 SpeedTest 峰值 800M左右，测试设备为 Samsung Note 20 Ultra，总的使用体验还是满意的。现在吃灰中，预测未来当 AP 使用。</p><p><img src="https://cdn.jsdelivr.net/gh/zwczwc/res/2021/RouterJouney/AX5400.png"></p><h3 id="ASUS-RT-AX86U"><a href="#ASUS-RT-AX86U" class="headerlink" title="ASUS RT-AX86U"></a>ASUS RT-AX86U</h3><p>现在主力路由器，某东 1499 入手，刷梅林和开 WiFi Boost 使用，以一机之力完成路由，AP，谷歌学术，外服游戏加速所有功能，而且无线改了澳大利亚地区，从原理上提升信号质量，摆放中央位置，能实现全屋的 5G 信号满格。CPU 4 核 A53 主频  1.8Ghz，满足现在 300M 的宽带，有个 2.5G 端口，这才是真正的战未来。（什么时候能加上光口，把 ISP 的辣鸡光猫退役了就更好了）缺点是发热量略大，在炎热的广东常年 CPU 温度接近70度，28nm 制程有点拉跨。</p><p><img src="https://cdn.jsdelivr.net/gh/zwczwc/res/2021/RouterJouney/AX86U.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>图片视频的EXIF编辑管理</title>
+    <link href="/2021/09/12/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E7%9A%84EXIF%E7%BC%96%E8%BE%91%E7%AE%A1%E7%90%86/"/>
+    <url>/2021/09/12/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E7%9A%84EXIF%E7%BC%96%E8%BE%91%E7%AE%A1%E7%90%86/</url>
+    
+    <content type="html"><![CDATA[<p>整理旧手机的回忆杀相册，复制到新手机时发现日期错乱，需要修改照片的修改时间为 EXIF 这样手机相册才会根据 EXIF 信息显示正确照片时间线。</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>Windows 默认资源管理器能改 date，但是不能精确到时分秒，因此需要第三方手段。</p><h4 id="Exif-date-editor"><a href="#Exif-date-editor" class="headerlink" title="Exif-date-editor"></a>Exif-date-editor</h4><p>用这个 repository，按需修改 datetime guess 的参数，可以猜出并修改对应的 EXIF date 或者手动修改。但是当图片体积过大时，有可能会失效。适用于 5MB 以下相片。</p><p><a href="https://github.com/gzzi/exif-date-editor">Exif-date-editor</a></p><h4 id="ACDSee"><a href="#ACDSee" class="headerlink" title="ACDSee"></a>ACDSee</h4><p>ACDSee 的修改非常精准。选中相片后在<code>批量</code>的下拉菜单中选择<code>调整时间标签</code>，要更改的日期为 <code>EXIF 日期和时间</code>，新时间标签为<code>上次修改日期与时间</code>。注意图片实质格式为 .jpg 才有效，因为 .png 是不带取 EXIF 信息的。有些图片后缀虽为 .jpg，但实质格式为 jpg，因此需要先转 png 为 jpg，ACDSee 也可以完成这批量转换操作。</p><h3 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h3>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于北京2008的回想</title>
     <link href="/2021/06/30/%E5%85%B3%E4%BA%8E%E5%8C%97%E4%BA%AC2008%E7%9A%84%E5%9B%9E%E6%83%B3/"/>
     <url>/2021/06/30/%E5%85%B3%E4%BA%8E%E5%8C%97%E4%BA%AC2008%E7%9A%84%E5%9B%9E%E6%83%B3/</url>
