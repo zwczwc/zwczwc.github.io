@@ -185,5 +185,18 @@
   
   
   
+  <entry>
+    <title>Hello World~</title>
+    <link href="/2000/01/01/Hello%20World~/"/>
+    <url>/2000/01/01/Hello%20World~/</url>
+    
+    <content type="html"><![CDATA[<p>This is a post for testing purpose. Just ignore it. :)</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
   
 </search>
