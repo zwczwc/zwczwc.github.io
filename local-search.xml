@@ -43,19 +43,6 @@
   
   
   <entry>
-    <title>自建 VPS 科学上网指南</title>
-    <link href="/2020/10/13/%E8%87%AA%E5%BB%BA%20VPS%20%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%8C%87%E5%8D%97/"/>
-    <url>/2020/10/13/%E8%87%AA%E5%BB%BA%20VPS%20%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%8C%87%E5%8D%97/</url>
-    
-    <content type="html"><![CDATA[<p>每次换服务器都重新上网搜一遍，现在还是稍微整理一下吧。</p><p>日常使用还是✈️场，线路更有保证。自建 VPS 仅作为紧急备用。</p><p>服务器购买略去，只用来上网的话一般最低配置就够用了，系统 ubuntu or debian</p><p>买完服务器后去控制台能看到 ssh 登录的地址和密码，用自带的网页终端或者 XShell 连都可以</p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>个人使用直接233的一键脚本</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">bash &lt;(curl -s -L https:<span class="hljs-regexp">//gi</span>t.io/v2ray.sh)<br></code></pre></td></tr></table></figure><blockquote><p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>ubuntu/debian 系统安装 Curl 方法: <code>apt-get update -y &amp;&amp; apt-get install curl -y</code><br>centos 系统安装 Curl 方法: <code>yum update -y &amp;&amp; yum install curl -y</code><br>安装好 curl 之后就能安装脚本了</p></blockquote><p>然后一路回车默认配置就可以了</p><h3 id="管理分享"><a href="#管理分享" class="headerlink" title="管理分享"></a>管理分享</h3><p>终端窗口输入 v2ray 即可管理各种配置</p><p>常用指令</p><p><code>v2ray</code> 主菜单</p><p><code>v2ray url</code> 查看分享链接</p><p><code>v2ray qr</code> 查看分享二维码</p><p><code>v2ray start</code> 启动 V2Ray</p><p><code>v2ray stop</code> 停止 V2Ray</p><p><code>v2ray restart</code> 重启 V2Ray</p><h3 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h3><p>可以启用BBR优化，如果是 ubuntu or debian，默认就自动启用了。不放心可以进主菜单的其他再检查启用一下。</p><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>下载对应平台客户端，添加链接或者扫二维码使用</p><p><a href="https://github.com/2dust/v2rayN">Windows</a></p><p><a href="https://github.com/2dust/v2rayNG">Android</a></p><p>iOS自行转区购买小火箭或者Quantumult</p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>简易搭建 Django 后台做 Python 爬虫的过程问题</title>
     <link href="/2020/02/23/%E7%AE%80%E6%98%93%E6%90%AD%E5%BB%BA%20Django%20%E5%90%8E%E5%8F%B0%E5%81%9A%20Python%20%E7%88%AC%E8%99%AB%E7%9A%84%E8%BF%87%E7%A8%8B%E9%97%AE%E9%A2%98/"/>
     <url>/2020/02/23/%E7%AE%80%E6%98%93%E6%90%AD%E5%BB%BA%20Django%20%E5%90%8E%E5%8F%B0%E5%81%9A%20Python%20%E7%88%AC%E8%99%AB%E7%9A%84%E8%BF%87%E7%A8%8B%E9%97%AE%E9%A2%98/</url>
